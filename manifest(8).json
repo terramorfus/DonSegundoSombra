@@ -1,0 +1,80 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://ce1bfbd7-8b08-4002-8746-0c8496b41a06",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://0b28b3f9-5659-43a2-9e5f-329a449093d5",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://c5ef30e7-4af0-416d-92f0-dc576a5df8f0",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 4624,
+					"width": 2600,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a937260f-b073-4550-a4f0-f7b54f40ecea",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/da8c7da87ee0f99461f56b4bd3894bb2c8ea252b9cba8ea66c102fe20897b61c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/da8c7da87ee0f99461f56b4bd3894bb2c8ea252b9cba8ea66c102fe20897b61c",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4624,
+								"width": 2600
+							},
+							"on": "http://c5ef30e7-4af0-416d-92f0-dc576a5df8f0"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

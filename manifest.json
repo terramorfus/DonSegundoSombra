@@ -1,0 +1,80 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://fe4127a7-09b5-4aec-8b0c-f3c61364f980",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://2ce09854-7b76-4be4-8fdb-8499a56e6f17",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://e63f4e13-6aa6-46e9-b391-bd5e2bf0b63d",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 685,
+					"width": 564,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://39401f5a-d20f-47d6-b38e-3d9599c347c8",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/3a5de3be288a830acabc2586152ba618c1c15143853b1beff594efb8fb69150c/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/3a5de3be288a830acabc2586152ba618c1c15143853b1beff594efb8fb69150c",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 685,
+								"width": 564
+							},
+							"on": "http://e63f4e13-6aa6-46e9-b391-bd5e2bf0b63d"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

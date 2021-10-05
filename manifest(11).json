@@ -1,0 +1,130 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://ce1bfbd7-8b08-4002-8746-0c8496b41a06",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://0b28b3f9-5659-43a2-9e5f-329a449093d5",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://d40e356f-8ac1-4e24-8f22-7bb0fcfac398",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3576,
+					"width": 2600,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9ae282a3-ac74-402e-aad7-abe511677fdb",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/f6493d6839f16745e19fc43bfba5e33f69f1bdf82ba6d4a6cf70fb489b5e7be/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/f6493d6839f16745e19fc43bfba5e33f69f1bdf82ba6d4a6cf70fb489b5e7be",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3576,
+								"width": 2600
+							},
+							"on": "http://d40e356f-8ac1-4e24-8f22-7bb0fcfac398"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://aff314b2-d46a-4c85-a3e0-5979b280b00a",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3650,
+					"width": 2204,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://eeb0a993-ae6d-4bca-a09f-ea136ece0c25",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/208026470a83ed6d4f9a50c024421eb0e80a83c710d86f9e839135adb7f4fa9b/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/208026470a83ed6d4f9a50c024421eb0e80a83c710d86f9e839135adb7f4fa9b",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3650,
+								"width": 2204
+							},
+							"on": "http://aff314b2-d46a-4c85-a3e0-5979b280b00a"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
